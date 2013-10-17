@@ -1,5 +1,6 @@
-module Graphics.Rendering.TalkingToShaders where
+module Graphics.Rendering.TalkingToShaders
+  (module L)
+where
 
-import Graphics.Rendering.OpenGL.Raw
-import Data.Vector.Storable
+import Graphics.Rendering.TalkingToShaders.Loading as L
 
