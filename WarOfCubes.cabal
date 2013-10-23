@@ -17,8 +17,9 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     WOC.Graphics.Cubes, WOC.Graphics.Terrain, WOC.Graphics.Display,
-                       WOC.Gameplay.TerrainBuilder, WOC.Gameplay.Units
+  exposed-modules:     WOC.Gameplay.TerrainBuilder, WOC.Gameplay.Units,
+                       WOC.Graphics.TerrainBuilder, WOC.Graphics.Terrain, WOC.Graphics.Cubes, WOC.Graphics.Display,
+                       WOC.Data.Math, WOC.Data.Collections
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.5 && <4.6, transformers, OpenGLRaw, GLFW-b <=0.1.0.5, Vec, JuicyPixels, vector, containers, random,
