@@ -8,4 +8,5 @@ data QuadTree a = QTNode { qtNodeValue :: a
                          , qtBtmLeft :: QuadTree a
                          , qtBtmRight :: QuadTree a }
   deriving (Functor)
-              
+
+
