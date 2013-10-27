@@ -22,6 +22,6 @@ library
                        WOC.Data.Math, WOC.Data.Collections
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.5 && <4.6, transformers, OpenGLRaw, GLFW-b <=0.1.0.5, Vec, JuicyPixels, vector, containers, random,
+  build-depends:       base >=4.5, transformers, OpenGLRaw, GLFW-b <=0.1.0.5, Vec, JuicyPixels, vector, containers, random,
                        TalkingToShaders
   default-language:    Haskell2010
